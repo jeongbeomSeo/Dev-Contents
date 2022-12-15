@@ -37,6 +37,7 @@
 - 우선순위 큐의 모든것
   - https://st-lab.tistory.com/219
 - 다익스트라 알고리즘
+  - https://4legs-study.tistory.com/21
   - https://sskl660.tistory.com/59
   - https://dding9code.tistory.com/81
 - 다익스트라 알고리즘 원리
@@ -47,6 +48,7 @@
 - 다익스트라 알고리즘 vs 플로이드 워셜
   - https://zz132456zz.tistory.com/9
 - Bellman-ford Algorithm
+  - https://4legs-study.tistory.com/26
   - https://velog.io/@suk13574/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Java-%EB%B2%A8%EB%A7%8C-%ED%8F%AC%EB%93%9CBellman-Ford-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
   - https://loosie.tistory.com/162
   - https://developer-davii.tistory.com/89
