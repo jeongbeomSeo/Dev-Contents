@@ -70,3 +70,31 @@
   - [[자료구조] 트리 순회 (Tree Traversal)](https://yoongrammer.tistory.com/70)
 - **이진 트리의 순회**
   - [[Java] 트리 Tree 2 - 이진 트리의 순회(전위, 중위, 후위, 반복, 레벨) / 구현](https://minhamina.tistory.com/83)
+
+## 정수론
+
+- [정수론 (1) - 최대공약수, 최소공배수, 유클리드 호제법](https://dimenchoi.tistory.com/46?category=750556)
+- [정수론 (2) - 베주 항등식](https://dimenchoi.tistory.com/47?category=750556)
+- [정수론 (3) - 합동식](https://dimenchoi.tistory.com/48?category=750556)
+- [정수론 (4) - 합동식에서의 나눗셈](https://dimenchoi.tistory.com/50?category=750556)
+- [정수론 (5) - 페르마의 소정리](https://dimenchoi.tistory.com/51?category=750556)
+- [정수론 (6) - 오일러의 정리와 오일러 파이 함수](https://dimenchoi.tistory.com/52)
+- [정수론 (7) - 확장 유클리드 알고리즘](https://dimenchoi.tistory.com/53?category=750556)
+- [정수론 (8) - RSA 암호](https://dimenchoi.tistory.com/54?category=750556)
+
+## 재귀 함수
+
+- [유클리드 호제법(Euclidean-algorithm)](https://velog.io/@yerin4847/W1-%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C-%ED%98%B8%EC%A0%9C%EB%B2%95)
+- [유클리드 호제법이란? | Lonpeach Tech](https://tech.lonpeach.com/2017/11/12/Euclidean-algorithm/)
+
+- [유클리드 호제법 증명 : 네이버 블로그](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=papers&logNo=140207307545)
+- [유클리드 호제법 증명 :: For a better world](https://roytravel.tistory.com/43)
+
+## 오일러 파이 함수
+
+- [오일러 파이 함수와 오일러 정리 : 네이버 블로그](https://m.blog.naver.com/hongjg3229/221795417061)
+- [정수론 (6) - 오일러의 정리와 오일러 파이 함수](https://dimenchoi.tistory.com/52)
+
+## RSA 암호체계
+
+- [RSA](http://egloos.zum.com/eyestorys/v/3544641)
