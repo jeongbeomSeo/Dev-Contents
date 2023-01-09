@@ -98,3 +98,10 @@
 ## RSA 암호체계
 
 - [RSA](http://egloos.zum.com/eyestorys/v/3544641)
+
+## 정렬
+
+- [[알고리즘] 버블 정렬(bubble sort)이란 - Heee's Development Blog + 정렬 알고리즘 시간복잡도 비교](https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html)
+- [정렬 - 단순 선택, 단순 삽입](https://velog.io/@orol116/%EC%A0%95%EB%A0%AC-%EB%8B%A8%EC%88%9C-%EC%84%A0%ED%83%9D-%EB%8B%A8%EC%88%9C-%EC%82%BD%EC%9E%85)
+- [[알고리즘] 셸 정렬(shell sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/08/algorithm-shell-sort.html)
+- [[알고리즘] 합병 정렬(merge sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html)
