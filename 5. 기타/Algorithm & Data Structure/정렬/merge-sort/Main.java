@@ -41,6 +41,17 @@ public class Main {
       Cf) 밑에 mergeSort()에서 __mergeSort(a, 0, n-1)로 실행했기 때문에 마지막 Index로 right가 설정되어 있다.
        */
 
+      /*
+       만약 위쪽 코드에서 left배열에 center를 포함시키지 않는다면 어떻게 될까?
+       코드를 만들어 보면 알겠지만 center를 포함시키지 않는 방식으로 코드를 짜면 가능한 전부 분할했을 때 
+       center의 포인터는 왼쪽 즉, left에 위치하고 있기 때문에 포함 시키지 않을 경우 빈 배열이 되어 버린다.
+       또한, 이 방식으로 코드를 구현하려고 할 경우 
+          __mergeSort(a, left, center);
+          __mergeSort(a, center, right);
+      이와 같이 해줘야 하는데, 최종 분할에서 center은 left와 같은숫자라서 center은 항상 right보다 작기 떄문에 무한 반복적으로 코드가 실행된다.
+      그래서, StackOverflowError가 발생한다.
+       */
+
       // 앞부분을 작업용 배열에 넣어주기
       for(i = left; i <= center; i++)
         buff[p++] = a[i];
