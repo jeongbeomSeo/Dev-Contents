@@ -13,8 +13,19 @@ public class Main {
           a[j + h] = a[j];
         // for문의 경우 조건식에 맞았을 경우 for문 안의 코드를 실행 후 증감식을 실행 후 다시 조건문을 확인한다.
         // 따라서, 아래와 같이 코드를 해줘야 바뀌는 것임.
-        a[j + h] = tmp;
+        a[j] = tmp;
       }
 
+    /*
+    for( ; h >= 1; h /= 3) {
+      for(int i = h; i < n; i++) {
+        int j;
+        int temp = a[i];
+        for(j = i; j - h >= 0 && a[j - h] > temp; j -= h)
+          a[j] = a[j - h];
+        a[j + h] = temp;
+      }
+    }
+    */
   }
 }
