@@ -28,7 +28,10 @@ public class Main {
   static void quickSort(int[] a, int left, int right) {
     int pl = left;                  // 왼쪽 커서
     int pr = right;                 // 오른쪽 커서
-    int x = (left + right) / 2;     // 피벗
+    int x = a[(pl + pr) / 2];     // 피벗
+    // ❗주의 
+    // 피벗의 경우 숫자가 고정되어 있어야 하기 때문에 index값이 아닌 실제 value값이 들어가야한다.
+    // Index를 넣어주고 아래 에서 a[x]와 같이 이용하면 피벗의 index위치가 바뀌는 순간 다른 결과가 나올 수 있다.
 
     do {
       while (a[pl] < x) pl++;

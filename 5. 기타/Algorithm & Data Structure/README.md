@@ -2,61 +2,61 @@
 
 ## 탐색
 
-- 그래프 - 시간복잡도와 공간복잡도(인접 행렬, 인접리스트)
+- **그래프 - 시간복잡도와 공간복잡도(인접 행렬, 인접리스트)**
   - [[알고리즘] Time Complexity (시간 복잡도) - 하나몬](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-time-complexity-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84/)
-- 그래와 트리(Graph and Tree)
+- **그래와 트리(Graph and Tree)**
   - [[자료구조] 그래프와 트리(Graph, Tree)](https://bigsong.tistory.com/33)
-- 그래프의 표현
+- **그래프의 표현**
   - [[Java]그래프의 표현 :: TH](https://sskl660.tistory.com/60)
-- 선형 탐색 / 이진 탐색 알고리즘
+- **선형 탐색 / 이진 탐색 알고리즘**
   - [탐색 알고리즘 - 1. 선형 탐색 / 2. 이진 탐색 알고리즘](https://nittaku.tistory.com/487)
-- 이진 탐색 트리
+- **이진 탐색 트리**
   - [[자료구조] 이진 탐색 트리 (BST, Binary Search Tree)](https://yoongrammer.tistory.com/71)
-- 완전 탐색
+- **완전 탐색**
   - [겐지충 프로그래머 :: 알고리즘 - 완전탐색(Exhaustive Search)](https://hongjw1938.tistory.com/78) X
-- 다이나믹 프로그래밍
+- **다이나믹 프로그래밍**
   - [겐지충 프로그래머 :: 알고리즘 - Dynamic Programming(동적 계획법)](https://hongjw1938.tistory.com/47) X
-- DFS
+- **DFS**
   - [[Java] DFS로 모든 이동 경로 구하기](https://minhamina.tistory.com/60)
-- BFS
+- **BFS**
   - [[Algorithm] BFS(Breadth-first search)를 Java로 구현해보자!](https://codingnojam.tistory.com/41)
   - [[Java] BFS 너비 우선 탐색 - 인접리스트 / 인접행렬로 구현](https://minhamina.tistory.com/36)
-- DFS와 BFS를 Constructor 이용하여 구현하기
+- **DFS와 BFS를 Constructor 이용하여 구현하기**
   - [[Java] 알고리즘 - BFS, DFS 구현하기](https://velog.io/@smallcherry/Java-AlgorithmBFSAndDFS)
-- DFS vs BFS
+- **DFS vs BFS**
   - [DFS vs BFS](https://velog.io/@vagabondms/DFS-vs-BFS)
   - [0.3.1 DFS와 BFS의 장단점 - [CS50AI 2020] 하버드대 AI with Python 강의 노트](https://wikidocs.net/123116)
   - [[알고리즘] 깊이 우선 탐색(DFS)과 너비 우선 탐색(BFS) — CULRRY](https://currygamedev.tistory.com/10)
-- 그리디 알고리즘
+- **그리디 알고리즘**
   - [[알고리즘] 탐욕 알고리즘(Greedy Algorithm) - 하나몬](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%83%90%EC%9A%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-greedy-algorithm/)
-- 제너릭
+- **제너**
   - [자바 [JAVA] - 제네릭(Generic)의 이해](https://st-lab.tistory.com/153)
-- 배열을 이용한 힙
+- **배열을 이용한 힙**
   - [자바 [JAVA] - 배열을 이용한 Heap (힙) 구현하기](https://st-lab.tistory.com/205)
-- 우선순위 큐의 모든것
+- **우선순위 큐의 모든것**
   - [자바 [JAVA] - Priority Queue (우선순위 큐) 구현하기](https://st-lab.tistory.com/219)
-- 다익스트라 알고리즘
+- **다익스트라 알고리즘**
   - [다익스트라 알고리즘 (Dijkstra Algorithm)](https://4legs-study.tistory.com/21)
   - [[Java]다익스트라 알고리즘(Dijkstra Algorithm) :: TH](https://sskl660.tistory.com/59)
   - [다익스트라 알고리즘(Dijkstra Algorithm) - JAVA](https://dding9code.tistory.com/81)
-- 다익스트라 알고리즘 원리
+- **다익스트라 알고리즘 원리**
   - [[알고리즘] 다익스트라 알고리즘 (Dijkstra Algorithm) 동작 원리 및 구현하기](https://haenny.tistory.com/350)
-- 플로이드 워셜
+- **플로이드 워셜**
   - [[Java]플로이드-워셜 알고리즘(Floyd-Warshall Algorithm) :: TH](https://sskl660.tistory.com/61)
   - [알고리즘 - 플로이드-워셜(Floyd-Warshall) 알고리즘 | ChanBLOG](https://chanhuiseok.github.io/posts/algo-50/)
-- 다익스트라 알고리즘 vs 플로이드 워셜
+- **다익스트라 알고리즘 vs 플로이드 워셜**
   - [[알고리즘] 다익스트라 / 플로이드 워셜 - 최단 경로 알고리즘 (Dijkstra / Floyd Warshall - Shortest Path Algorithm)](https://zz132456zz.tistory.com/9)
-- Bellman-ford Algorithm
+- **Bellman-ford Algorithm**
   - [벨만-포드 알고리즘(Bellman-Ford Algorithm)](https://4legs-study.tistory.com/26)
   - [[알고리즘/Java] 벨만-포드(Bellman-Ford) 알고리즘](https://velog.io/@suk13574/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Java-%EB%B2%A8%EB%A7%8C-%ED%8F%AC%EB%93%9CBellman-Ford-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
   - [[알고리즘/ 그래프] 벨만 포드 알고리즘 (Bellman-Ford Algorithm) (Java)](https://loosie.tistory.com/162)
   - [[Algorithm] 벨만포드(BellmanFord) 알고리즘 JAVA](https://developer-davii.tistory.com/89)
   - [벨만-포드 알고리즘 · ratsgo's blog](https://ratsgo.github.io/data%20structure&algorithm/2017/11/27/bellmanford/)
-- SPFA(Shortest Path Faster Algorithm)
+- **SPFA(Shortest Path Faster Algorithm)**
   - [Crocus](https://www.crocus.co.kr/1089)
   - [SPFA(Shortest Path Faster Algorithm) - Code Factory](https://lemidia.github.io/algorithm/SPFA/)
   - [SPFA (Shortest Path Faster Algorithm)](https://levenshtein.tistory.com/119)
-- 최단거리 문제 알고리즘에 대한 궁금증 정리
+- **최단거리 문제 알고리즘에 대한 궁금증 정리**
   - [최단거리 문제 알고리즘에 대한 궁금증 정리. DFS, BFS와 다익스트라 알고리즘에 대한 여러가지 의문점 | by Sigrid Jin | Medium](https://jypthemiracle.medium.com/%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC-%EB%AC%B8%EC%A0%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B6%81%EA%B8%88%EC%A6%9D-%EC%A0%95%EB%A6%AC-5b1b813ba1b3)
 
 ## 트리
@@ -101,8 +101,13 @@
 
 ## 정렬
 
-- [[알고리즘] 버블 정렬(bubble sort)이란 - Heee's Development Blog + 정렬 알고리즘 시간복잡도 비교](https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html)
-- [정렬 - 단순 선택, 단순 삽입](https://velog.io/@orol116/%EC%A0%95%EB%A0%AC-%EB%8B%A8%EC%88%9C-%EC%84%A0%ED%83%9D-%EB%8B%A8%EC%88%9C-%EC%82%BD%EC%9E%85)
-- [[알고리즘] 셸 정렬(shell sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/08/algorithm-shell-sort.html)
-- [[알고리즘] 퀵 정렬(quick sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html) -[알고리즘 - 정렬(3) 병합 정렬, 힙 정렬, 도수 정렬](https://velog.io/@yusokk/algorithm-sort3)
-- [[알고리즘] 합병 정렬(merge sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html) -[[알고리즘] 힙 정렬(heap sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/10/algorithm-heap-sort.html) -[도수 정렬(Counting sort)](https://velog.io/@jimmy48/%EB%8F%84%EC%88%98-%EC%A0%95%EB%A0%ACCounting-sort)
+- **종류**
+  - [[알고리즘] 버블 정렬(bubble sort)이란 - Heee's Development Blog + 정렬 알고리즘 시간복잡도 비교](https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html)
+  - [정렬 - 단순 선택, 단순 삽입](https://velog.io/@orol116/%EC%A0%95%EB%A0%AC-%EB%8B%A8%EC%88%9C-%EC%84%A0%ED%83%9D-%EB%8B%A8%EC%88%9C-%EC%82%BD%EC%9E%85)
+  - [[알고리즘] 셸 정렬(shell sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/08/algorithm-shell-sort.html)
+  - [[알고리즘] 퀵 정렬(quick sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html)
+  - [알고리즘 - 정렬(3) 병합 정렬, 힙 정렬, 도수 정렬](https://velog.io/@yusokk/algorithm-sort3)
+  - [[알고리즘] 합병 정렬(merge sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html)
+  - [[알고리즘] 힙 정렬(heap sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/10/algorithm-heap-sort.html)
+  - [도수 정렬(Counting sort)](https://velog.io/@jimmy48/%EB%8F%84%EC%88%98-%EC%A0%95%EB%A0%ACCounting-sort)
+- [[정렬] (번역) 정렬 알고리즘에서 안정성(Stability)이란?](https://wisdom-and-record.tistory.com/57)
