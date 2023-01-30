@@ -226,3 +226,6 @@ public class Trie_Using_Array {
     }
   }
 }
+
+// 참고한 사이트
+// 겐지충 프로그래머 :: 자료구조 - 트라이(https://hongjw1938.tistory.com/24)
