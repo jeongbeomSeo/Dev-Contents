@@ -1,5 +1,9 @@
 # 알고리즘 & 자료구조
 
+## 알고리즘 참고 블로그
+
+- [겐지충 프로그래머 :: 자료구조 - 트라이(Trie)](https://hongjw1938.tistory.com/)
+
 ## 탐색
 
 - **그래프 - 시간복잡도와 공간복잡도(인접 행렬, 인접리스트)**
@@ -29,7 +33,7 @@
   - [[알고리즘] 깊이 우선 탐색(DFS)과 너비 우선 탐색(BFS) — CULRRY](https://currygamedev.tistory.com/10)
 - **그리디 알고리즘**
   - [[알고리즘] 탐욕 알고리즘(Greedy Algorithm) - 하나몬](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%83%90%EC%9A%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-greedy-algorithm/)
-- **제너**
+- **제너릭**
   - [자바 [JAVA] - 제네릭(Generic)의 이해](https://st-lab.tistory.com/153)
 - **배열을 이용한 힙**
   - [자바 [JAVA] - 배열을 이용한 Heap (힙) 구현하기](https://st-lab.tistory.com/205)
@@ -101,13 +105,34 @@
 
 ## 정렬
 
-- **종류**
+- **버블 정렬**
   - [[알고리즘] 버블 정렬(bubble sort)이란 - Heee's Development Blog + 정렬 알고리즘 시간복잡도 비교](https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html)
+- **단순 선택, 단순 삽입**
   - [정렬 - 단순 선택, 단순 삽입](https://velog.io/@orol116/%EC%A0%95%EB%A0%AC-%EB%8B%A8%EC%88%9C-%EC%84%A0%ED%83%9D-%EB%8B%A8%EC%88%9C-%EC%82%BD%EC%9E%85)
+- **셸 정렬**
   - [[알고리즘] 셸 정렬(shell sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/08/algorithm-shell-sort.html)
+- **퀵 정렬**
   - [[알고리즘] 퀵 정렬(quick sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html)
-  - [알고리즘 - 정렬(3) 병합 정렬, 힙 정렬, 도수 정렬](https://velog.io/@yusokk/algorithm-sort3)
+- **병합 정렬**
   - [[알고리즘] 합병 정렬(merge sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html)
+- **힙 정렬**
   - [[알고리즘] 힙 정렬(heap sort)이란 - Heee's Development Blog](https://gmlwjd9405.github.io/2018/05/10/algorithm-heap-sort.html)
+- **도수 정렬**
   - [도수 정렬(Counting sort)](https://velog.io/@jimmy48/%EB%8F%84%EC%88%98-%EC%A0%95%EB%A0%ACCounting-sort)
+- **병합, 힙, 도수 정렬**
+
+  - [알고리즘 - 정렬(3) 병합 정렬, 힙 정렬, 도수 정렬](https://velog.io/@yusokk/algorithm-sort3)
+
 - [[정렬] (번역) 정렬 알고리즘에서 안정성(Stability)이란?](https://wisdom-and-record.tistory.com/57)
+
+## 문자열 검색
+
+- **KMP**
+  - [알고리즘 - KMP 알고리즘 : 문자열 검색을 위한 알고리즘 | ChanBLOG](https://chanhuiseok.github.io/posts/algo-14/)
+  - [KMP : 문자열 검색 알고리즘 - 멍멍멍](https://bowbowbow.tistory.com/6)
+- **Trie**
+  - [겐지충 프로그래머 :: 자료구조 - 트라이(Trie)](https://hongjw1938.tistory.com/24)
+  - [[Algorithm] Trie를 Java로 구현해보자!](https://codingnojam.tistory.com/40)
+  - [[자료구조] 트라이(Trie) 자료구조](https://rebro.kr/86)
+- **Rabin-Karp**
+- **Boyer-Moore법**

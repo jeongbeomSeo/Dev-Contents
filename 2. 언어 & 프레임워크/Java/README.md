@@ -7,3 +7,7 @@
 - [[Java] 객체 정렬하기 1부 - Comparable vs Comparator | Engineering Blog by Dale Seo](https://www.daleseo.com/java-comparable-comparator/)
 
 - [Java에 내장된 정렬 함수 사용하기 - YA-Hwang 기술 블로그](https://yahwang.github.io/posts/61)
+
+- [[Java] Map Interface의 유용한 메서드를 알아보자! (Java 8 기준)](https://codingnojam.tistory.com/39)
+
+- [[JAVA]Map이란? (HashMap, Hashtable, TreeMap)](https://devlogofchris.tistory.com/41)
