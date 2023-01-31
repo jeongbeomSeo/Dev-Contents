@@ -135,4 +135,22 @@
   - [[Algorithm] Trie를 Java로 구현해보자!](https://codingnojam.tistory.com/40)
   - [[자료구조] 트라이(Trie) 자료구조](https://rebro.kr/86)
 - **Rabin-Karp**
+
+  - [31. 라빈 카프(Rabin-Karp) 알고리즘 : 네이버 블로그](https://blog.naver.com/ndb796/221240679247)
+  - [[알고리즘] 라빈-카프 알고리즘 (Rabin-Karp) — yjglab](https://yjg-lab.tistory.com/218)
+  - [[문자열 탐색] 라빈 카프(Rabin-Karp) 알고리즘](https://frtt0608.tistory.com/100)
+  - [라빈 카프(Rabin-Karp), Hash 기반으로 문자열 빨리 찾기](https://coding-food-court.tistory.com/216)
+
 - **Boyer-Moore법**
+
+  - [What a Great World!! :: Boyer-Moore (Code: Bad Character Heuristic + Good Suffix Heuristic)](https://greatzzo.tistory.com/8)
+  - [(1) 기술사 - 알고리즘 - 보이어-무어 알고리즘 - YouTube](https://www.youtube.com/watch?v=mXQtunIEo0k)
+  - [Boyer Moore 법](https://bamtory29.tistory.com/entry/Boyer-Moore-%EB%B2%95)
+  - [Boyer-Moore 법 (문자열 검색 알고리즘)](https://juno-juno.tistory.com/m/61)
+  - [문자열 검색 - Boyer-Moore algorithm : 네이버 블로그](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=cestlavie_01&logNo=221055516242)
+  - [Algorithm: KMP, Boyer-Moore, Rabin-Karp](https://1ambda.github.io/algorithm/algorithm-part2-4/)
+  - [알고리즘 / 보이어무어알고리즘에 대한 고찰](http://xenostudy.tistory.com/72)
+  - [String Algorithm(KMP,Boyer-Moore) — writing up](https://mslilsunshine.tistory.com/139)
+
+- [문자열 검색 - 브루트 포스, KMP, Boyer-Moore](https://sustainable-dev.tistory.com/53)
+- [문자열 검색 알고리즘 개념 (브루트포스, KMP, Boyer-Moore) :: 끄적끄적](https://ee-22-joo.tistory.com/8)
