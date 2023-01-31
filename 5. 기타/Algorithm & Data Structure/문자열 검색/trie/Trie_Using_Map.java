@@ -1,12 +1,13 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.NoSuchElementException;
 
 public class Trie_Using_Map {
   static class Node {
     // 자식 노드
-    Map<Character, Node> chiledNode = new HashMap<>();
+    Map<Character, Node> childNode = new HashMap<>();
     // 단어의 끝인지 아닌지 체크
-    boolean endOfWord;
+    boolean isTerminal;
   }
 
     static class Trie {
@@ -21,11 +22,11 @@ public class Trie_Using_Map {
         // 문자열의 각 단어마다 가져와서 자식 노드 중에 있는지 체크
         // 없으면 자식 노드 새로 생성
         for(int i = 0; i < str.length(); i++) {
-          node = node.chiledNode.computeIfAbsent(str.charAt(i), key -> new Node());
+          node = node.childNode.computeIfAbsent(str.charAt(i), key -> new Node());
         }
 
         // 저장 할 문자열의 마지막 단어에 매핑되는 노드에 단어의 끝임을 명시
-        node.endOfWord = true;
+        node.isTerminal = true;
       }
 
       // Trie에서 문자열 검색
@@ -36,7 +37,7 @@ public class Trie_Using_Map {
         // 문자열의 각 단어마다 노드가 존재하는지 체크
         for(int i = 0; i < str.length(); i++) {
           // 문자열의 각 단어에 매핑된 노드가 존재하면 가져오고 아니면 null
-          node = node.chiledNode.getOrDefault(str.charAt(i), null);
+          node = node.childNode.getOrDefault(str.charAt(i), null);
           if(node == null) {
             // node가 null이면 현재 Trie에 해당 문자열은 없음
             return false;
@@ -45,9 +46,30 @@ public class Trie_Using_Map {
         // 문자열의 마지막 단어까지 매핑된 노듣가 존재한다고해서 무조건 문자열이 존재하는게 아님
         // busy를 Trie에 저장했으면, bus의 마지막 s단어에 매핑 된 노드는 존재하지만 Trie에 저장된 건 아니다
         // 그러므로 현재 노드가 단어의 끝인지 아닌지 체크하는 변수로 리턴
-        return node.endOfWord;
+        return node.isTerminal;
       }
 
+      void delete(String str, Node current, int idx) {
+        int leng = str.length();
+    
+        if((current.childNode.isEmpty() && idx != leng) || (idx == leng && !current.isTerminal)) {
+          throw new NoSuchElementException("Value" + str + " does not exists!");
+        }
+    
+        if(idx == leng) {
+          current.isTerminal = false;
+    
+          if(current.childNode.isEmpty())
+            current = null;
+        } else {
+          char c = str.charAt(idx);
+    
+          delete(str, current.childNode.get(c), idx + 1);
+    
+          if(current.childNode.isEmpty() && !current.isTerminal)
+            current = null;
+        }
+      }
     }
   public static void main(String[] args) {
     // Trie 자료 구조 생성
