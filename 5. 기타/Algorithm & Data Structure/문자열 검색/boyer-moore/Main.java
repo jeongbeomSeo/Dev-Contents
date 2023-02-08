@@ -10,7 +10,7 @@ public class Main {
     for(pt = 0; pt <= Character.MAX_VALUE; pt++)
       skip[pt] = patLen;
 
-    for(pt = 0; pt < patLen; pt++)
+    for(pt = 0; pt < patLen - 1; pt++)
       skip[pat.charAt(pt)] = patLen - pt - 1;   // pt == patLen - 1
 
     // 검색 
@@ -23,10 +23,10 @@ public class Main {
         pp--;
       }
       // patLen - pp인 이유는 다음과 같다.
-      // 만약 예시로써 txt: ABCBCD~~~~라고 하고 pat: BCABCD라고 할때 pp = 2일때 둘의 문자가 다르다.
-      // 그때의 skip table은 1이고 만약 pp를 patLen - 1로 하는데 pt를 1만 더해준다면 결과적으로 보면 pat가 txt기준으로 오른쪽으로 이동하는것이 아니라 왼쪽으로 이동하는 것이다.
-      // 즉, pt = 3과 pp = 5를 비교하는 그림이 그려진다. (박스 기준으로 생각하면 pat박스가 txt박스 왼쪽부분을 넘어선 상황)
-      // 따라서, pp = patLen - 1 로 옮겨주고 pt = ((patLen - 1) - pp) + 1 = patLen - pp로 해주면서 결과적으론 한 칸 Shift된 상황인 것이다.
+      // 만약 예시로써 txt: ABCBCD~~~~라고 하고 pat: BCABCD라고 해보자. 해당 경우 pp = 2일때 서로의 문자가 다르다.
+      // 그때의 skip table은 1이고 해당 매커니즘의 경우 pp를 patLen - 1로 하는데 pt는 skip table의 값만큼 더해준다. 즉, 결과적으로 보면 pat가 txt기준으로 오른쪽으로 이동하는것이 아니라 왼쪽으로 이동하는 것이다.
+      // 즉, pt = 3과 pp = 5를 비교하는 그림이 그려진다. (비교 과정에서 포인터가 가만히 있는 것이 아니라 움직인다.)
+      // 따라서, pp = patLen - 1 로 옮겨주고 pt의 경우 (patLen - 1) - pp)만큼 움직였으므로 pt += (patLen - 1) - pp) + 1 로 해주면서 결과적으론 처음 상황에서 한 칸 Shift된 상황인 것이다.
       pt += (skip[txt.charAt(pp)] > patLen - pp) ? skip[txt.charAt(pp)] : patLen - pp;
     }
     return -1;    // 검색 실패 
@@ -90,7 +90,7 @@ public class Main {
       // 여기서 max function을 사용하는 이유는 확실히 양수를 얻기 위함에 있다.
       // Negative Shift를 얻을 수 있는데 만약, 비교 과정에서 불일치할 때의 txt의 bad Character가 pattern에서 pp index보다 오른쪽에 위치해 있다면
       // 음수가 나올 것이다. (pp, badSkip Ele = index) 참고: https://greatzzo.tistory.com/8
-      int badShift = Math.max(pp - badSkip[shift + pp], 1);
+      int badShift = Math.max(pp - badSkip[txt.charAt(shift + pp)], 1);
       int goodShift = goodSkip[pp];
 
       shift = goodShift > badShift ? goodShift : badShift;
