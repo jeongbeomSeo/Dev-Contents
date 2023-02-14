@@ -76,7 +76,7 @@ public class Main {
           }
         }
       } else {
-        parentHash = 31 * parentHash % MOD - 31 * parent.charAt(i - 1) * power % MOD + parent.charAt(i + patternSize - 1);
+        parentHash = 31 * (parentHash - 31 * parent.charAt(i - 1) * power % MOD) + parent.charAt(i + patternSize - 1);
         parentHash  %= MOD;
       }
 

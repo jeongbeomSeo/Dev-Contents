@@ -20,12 +20,7 @@ public class Main {
         if(pp == 0)
           return pt;    // 검색 성공 
         pt--;
-        pp--;
-      }
-      // patLen - pp인 이유는 다음과 같다.
-      // 만약 예시로써 txt: ABCBCD~~~~라고 하고 pat: BCABCD라고 해보자. 해당 경우 pp = 2일때 서로의 문자가 다르다.
-      // 그때의 skip table은 1이고 해당 매커니즘의 경우 pp를 patLen - 1로 하는데 pt는 skip table의 값만큼 더해준다. 즉, 결과적으로 보면 pat가 txt기준으로 오른쪽으로 이동하는것이 아니라 왼쪽으로 이동하는 것이다.
-      // 즉, pt = 3과 pp = 5를 비교하는 그림이 그려진다. (비교 과정에서 포인터가 가만히 있는 것이 아니라 움직인다.)
+ 
       // 따라서, pp = patLen - 1 로 옮겨주고 pt의 경우 (patLen - 1) - pp)만큼 움직였으므로 pt += (patLen - 1) - pp) + 1 로 해주면서 결과적으론 처음 상황에서 한 칸 Shift된 상황인 것이다.
       pt += (skip[txt.charAt(pp)] > patLen - pp) ? skip[txt.charAt(pp)] : patLen - pp;
     }
@@ -76,16 +71,18 @@ public class Main {
     pp = patLen - 1;
 
     while (shift < txtLen - patLen) {
-      while(txt.charAt(shift + pp) == pat.charAt(pp)){
+      while(pp >= 0 && txt.charAt(shift + pp) == pat.charAt(pp))
         pp--;
-
-        if(pp == 0) {
-          return shift;
-          // 만약 여러개 구하고 싶다면
-          // List<Integer>에 add 해주고
-          // shift += (shift + patLen) < txtLen ? patLen - badSkip[shift + patLen] : 1
-        }
+      
+      if(pp < 0 ) {
+        return shift;
+        // 만약 여러개 구하고 싶다면
+        // List<Integer>에 add 해주고 이후에도 진행하고 싶다면
+        // shift += goodskip[0]
       }
+
+
+
       // badShift 구하는 과정
       // 여기서 max function을 사용하는 이유는 확실히 양수를 얻기 위함에 있다.
       // Negative Shift를 얻을 수 있는데 만약, 비교 과정에서 불일치할 때의 txt의 bad Character가 pattern에서 pp index보다 오른쪽에 위치해 있다면
