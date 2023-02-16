@@ -121,6 +121,12 @@
 
   - [[자료구조] 트리 순회 (Tree Traversal)](https://yoongrammer.tistory.com/70)
 
+- **이진 트리 구현**
+
+  - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://st-lab.tistory.com/300)
+  - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://k3068.tistory.com/30)
+  - [[Data Structure] Java 이진트리(Binary Tree) 구현](https://math-coding.tistory.com/164)
+
 - **이진 트리의 순회**
 
   - [[Java] 트리 Tree 2 - 이진 트리의 순회(전위, 중위, 후위, 반복, 레벨) / 구현](https://minhamina.tistory.com/83)
