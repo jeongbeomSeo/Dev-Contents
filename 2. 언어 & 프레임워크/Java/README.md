@@ -16,3 +16,5 @@
 - [[Java]HashMap 키(Key) 정렬 방법](https://developer-talk.tistory.com/395)
 - [[Java] 자바 소수점 원하는 자리수 만큼 출력 - 기역니은디귿](https://bullie.tistory.com/7?category=1009480)
 - [[Java]문자열 위치 찾는 방법](https://developer-talk.tistory.com/650)
+
+- [[자바개념정리01]멤버변수 지역변수 전역변수 등 헷갈리지 않게 구분하기](https://easywebs.tistory.com/29)

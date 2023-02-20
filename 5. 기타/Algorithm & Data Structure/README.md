@@ -121,6 +121,10 @@
 
   - [[자료구조] 트리 순회 (Tree Traversal)](https://yoongrammer.tistory.com/70)
 
+- **이진 트리와 이진 탐색 트리**
+
+  - [[자료구조] 이진 트리와 이진 탐색 트리 (BST: Binary Search Tree)](https://velog.io/@yeonkr/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%9D%B4%EC%A7%84-%ED%8A%B8%EB%A6%AC%EC%99%80-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC-BST-Binary-Search-Tree)
+
 - **이진 트리 구현**
 
   - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://st-lab.tistory.com/300)
