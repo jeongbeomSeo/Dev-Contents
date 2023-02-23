@@ -19,3 +19,4 @@
 
 - [[자바개념정리01]멤버변수 지역변수 전역변수 등 헷갈리지 않게 구분하기](https://easywebs.tistory.com/29)
 - [자바 [JAVA] - Comparable 과 Comparator의 이해](https://st-lab.tistory.com/243)
+- ["강이"의 JAVA 강좌: 자바의 추상클래스(abstract class)와 인터페이스(interface)](http://alecture.blogspot.com/2011/05/abstract-class-interface.html)
