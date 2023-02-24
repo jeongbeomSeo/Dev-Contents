@@ -127,9 +127,9 @@
 
 - **이진 트리 구현**
 
-  - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://st-lab.tistory.com/300)
-  - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://k3068.tistory.com/30)
   - [[Data Structure] Java 이진트리(Binary Tree) 구현](https://math-coding.tistory.com/164)
+  - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://k3068.tistory.com/30)
+  - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://st-lab.tistory.com/300)
 
 - **이진 트리의 순회**
 

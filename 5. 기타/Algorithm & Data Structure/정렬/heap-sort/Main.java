@@ -14,11 +14,11 @@ public class Main {
     for(parent = left; parent < (right + 1) / 2; parent = child) {
       int cl = parent * 2 + 1;                            // 왼쪽 자식
       int cr = cl + 1;                                    // 오른쪽 자식
-      child = (cr >= right && a[cl] > a[cr]) ? cl : cr;   // 큰 값을 가진 노드를 자식에 대입
+      child = (cr <= right && a[cr] > a[cl]) ? cr : cl;   // 큰 값을 가진 노드를 자식에 대입
       // ❗❗매우 주의 
-      // (cr >= right && a[cr] > a[cl]) ? cr : cl 이렇게 쓰는 순간 결과가 확 뒤바뀐다.
+      // (cr <= right && a[cr] > a[cl]) ? cl : cr 이렇게 쓰는 순간 결과가 확 뒤바뀐다.
       // cr이 설정해둔 마지막 index인 right를 넘어서면 false가 나오는데 그때 false의 결과 값으로 cr을 설정해두면 문제가 발생한다.
-      if(temp > a[child]) break;
+      if(temp >= a[child]) break;
       else
         a[parent] = a[child];
       // a[child] = temp; => 이와 같이 바로 바꿔 줄 필요 X

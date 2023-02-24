@@ -68,9 +68,9 @@ public class Main {
       pt--;
     }
 
-    pp = patLen - 1;
-
-    while (shift < txtLen - patLen) {
+    
+    while (shift <= txtLen - patLen) {
+      pp = patLen - 1;
       while(pp >= 0 && txt.charAt(shift + pp) == pat.charAt(pp))
         pp--;
       
