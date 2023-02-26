@@ -82,7 +82,7 @@ class BinarySearchTree<E> {
     int compResult; // 비교 결과(양수, 0, 음수)를 담고 있을 변수
 
     do {
-      // 다음 순회에서 curent의 부모노드를 가리킬 수 있도록 현재 current를 저장 ='
+      // 다음 순회에서 curent의 부모노드를 가리킬 수 있도록 현재 current를 저장
       currentParent = current;
 
       compResult = compValue.compareTo(current.value);
@@ -305,10 +305,6 @@ class BinarySearchTree<E> {
     // 삭제하고자 하는 노드가 부모 노드로부터 왼쪽 자식 노드인지 오른쪽 자식 노드인지 알기 위한 변수
     boolean hasLeft = false;
 
-    if (root == null) {
-      return null;
-    }
-
     @SuppressWarnings("unchecked")
     Comparable<? super E> compValue = (Comparable<? super E>) value;
 
@@ -376,10 +372,6 @@ class BinarySearchTree<E> {
     E oldValue = (E) value;
     Node<E> parent = null, current = root;
     boolean hasLeft = false;
-
-    if (root == null) {
-      return null;
-    }
 
     @SuppressWarnings("unchecked")
     E compValue = (E) value;
