@@ -67,7 +67,6 @@ public class Main {
       pp = patLen - pt;
       pt--;
     }
-
     
     while (shift <= txtLen - patLen) {
       pp = patLen - 1;
@@ -80,8 +79,6 @@ public class Main {
         // List<Integer>에 add 해주고 이후에도 진행하고 싶다면
         // shift += goodskip[0]
       }
-
-
 
       // badShift 구하는 과정
       // 여기서 max function을 사용하는 이유는 확실히 양수를 얻기 위함에 있다.

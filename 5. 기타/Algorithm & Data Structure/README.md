@@ -135,6 +135,10 @@
 
   - [[Java] 트리 Tree 2 - 이진 트리의 순회(전위, 중위, 후위, 반복, 레벨) / 구현](https://minhamina.tistory.com/83)
 
+- **세그먼트(Segment) 트리**
+  - [세그먼트 트리](https://book.acmicpc.net/ds/segment-tree)
+  - [[Algorithm] 세그먼트 트리(Segment Tree)를 Java로 구현해보자! !(with BOJ-2042 Java로 문제풀이)](https://codingnojam.tistory.com/49)
+
 ## 정수론
 
 - [정수론 (1) - 최대공약수, 최소공배수, 유클리드 호제법](https://dimenchoi.tistory.com/46?category=750556)
@@ -215,15 +219,14 @@
   - [31. 라빈 카프(Rabin-Karp) 알고리즘 : 네이버 블로그](https://blog.naver.com/ndb796/221240679247)
   - [[알고리즘] 라빈-카프 알고리즘 (Rabin-Karp) — yjglab](https://yjg-lab.tistory.com/218)
   - [[문자열 탐색] 라빈 카프(Rabin-Karp) 알고리즘](https://frtt0608.tistory.com/100)
-  - [라빈 카프(Rabin-Karp), Hash 기반으로 문자열 빨리 찾기](https://coding-food-court.tistory.com/216)
 
 - **Boyer-Moore법**
 
   - [What a Great World!! :: Boyer-Moore (Code: Bad Character Heuristic + Good Suffix Heuristic)](https://greatzzo.tistory.com/8)
   - [(1) 기술사 - 알고리즘 - 보이어-무어 알고리즘 - YouTube](https://www.youtube.com/watch?v=mXQtunIEo0k)
+  - [문자열 검색 - Boyer-Moore algorithm : 네이버 블로그](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=cestlavie_01&logNo=221055516242)
   - [Boyer Moore 법](https://bamtory29.tistory.com/entry/Boyer-Moore-%EB%B2%95)
   - [Boyer-Moore 법 (문자열 검색 알고리즘)](https://juno-juno.tistory.com/m/61)
-  - [문자열 검색 - Boyer-Moore algorithm : 네이버 블로그](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=cestlavie_01&logNo=221055516242)
   - [알고리즘 / 보이어무어알고리즘에 대한 고찰](http://xenostudy.tistory.com/72)
   - [String Algorithm(KMP,Boyer-Moore) — writing up](https://mslilsunshine.tistory.com/139)
   - [Boyer-Moore Exact Pattern Match (JavaScript Demo)](https://personal.utdallas.edu/~besp/demo/John2010/boyer-moore.htm)
