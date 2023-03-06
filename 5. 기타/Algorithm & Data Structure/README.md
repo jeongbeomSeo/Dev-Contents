@@ -125,11 +125,12 @@
 
   - [[자료구조] 이진 트리와 이진 탐색 트리 (BST: Binary Search Tree)](https://velog.io/@yeonkr/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%9D%B4%EC%A7%84-%ED%8A%B8%EB%A6%AC%EC%99%80-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC-BST-Binary-Search-Tree)
 
-- **이진 트리 구현**
+- **이진 (탐색) 트리 구현**
 
   - [[Data Structure] Java 이진트리(Binary Tree) 구현](https://math-coding.tistory.com/164)
   - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://k3068.tistory.com/30)
   - [자바 [JAVA] - Binary Search Tree (이진 탐색 트리) 구현하기](https://st-lab.tistory.com/300)
+  - [[JAVA] 재귀 - 이진 탐색 트리(Binary Search Tree)의 삽입 - (2) -> 재귀 함수 구현](https://marobiana.tistory.com/82)
 
 - **이진 트리의 순회**
 
@@ -138,6 +139,7 @@
 - **세그먼트(Segment) 트리**
   - [세그먼트 트리](https://book.acmicpc.net/ds/segment-tree)
   - [[Algorithm] 세그먼트 트리(Segment Tree)를 Java로 구현해보자! !(with BOJ-2042 Java로 문제풀이)](https://codingnojam.tistory.com/49)
+  - [세그먼트 트리(Segment Tree) - Crocus](https://www.crocus.co.kr/648)
 
 ## 정수론
 
