@@ -10,13 +10,14 @@
 
   - [[알고리즘] Time Complexity (시간 복잡도) - 하나몬](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-time-complexity-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84/)
 
-- **그래와 트리(Graph and Tree)**
+- **그래프와 트리(Graph and Tree)**
 
   - [[자료구조] 그래프와 트리(Graph, Tree)](https://bigsong.tistory.com/33)
 
 - **그래프의 표현**
 
   - [[Java]그래프의 표현 :: TH](https://sskl660.tistory.com/60)
+  - [[그래프] 인접 행렬과 인접 리스트](https://sarah950716.tistory.com/12)
 
 - **선형 탐색 / 이진 탐색 알고리즘**
 
@@ -137,9 +138,14 @@
   - [[Java] 트리 Tree 2 - 이진 트리의 순회(전위, 중위, 후위, 반복, 레벨) / 구현](https://minhamina.tistory.com/83)
 
 - **세그먼트(Segment) 트리**
+
   - [세그먼트 트리](https://book.acmicpc.net/ds/segment-tree)
   - [[Algorithm] 세그먼트 트리(Segment Tree)를 Java로 구현해보자! !(with BOJ-2042 Java로 문제풀이)](https://codingnojam.tistory.com/49)
   - [세그먼트 트리(Segment Tree) - Crocus](https://www.crocus.co.kr/648)
+
+- **최소 공통 조상(LCA)**
+  - [최소 공통 조상 (LCA, Lowest Common Ancestor)](https://4legs-study.tistory.com/121)
+  - [최소 공통 조상 알고리즘](https://velog.io/@shiningcastle/%EC%B5%9C%EC%86%8C-%EA%B3%B5%ED%86%B5-%EC%A1%B0%EC%83%81-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 
 ## 정수론
 
