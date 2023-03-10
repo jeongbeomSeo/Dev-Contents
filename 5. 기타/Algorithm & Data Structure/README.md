@@ -144,8 +144,13 @@
   - [세그먼트 트리(Segment Tree) - Crocus](https://www.crocus.co.kr/648)
 
 - **최소 공통 조상(LCA)**
+
   - [최소 공통 조상 (LCA, Lowest Common Ancestor)](https://4legs-study.tistory.com/121)
   - [최소 공통 조상 알고리즘](https://velog.io/@shiningcastle/%EC%B5%9C%EC%86%8C-%EA%B3%B5%ED%86%B5-%EC%A1%B0%EC%83%81-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+  - [5. LCA, Lowest Common Ancestor (최소 공통 조상) :: Enjoy when you can, Endure when you must](https://exponential-e.tistory.com/34)
+
+- **LCA + Segmeng Tree**
+  - [[알고리즘] 최소 공통 조상 LCA 트리 - DP & 세그먼트 트리 (Java)](https://loosie.tistory.com/364)
 
 ## 정수론
 
