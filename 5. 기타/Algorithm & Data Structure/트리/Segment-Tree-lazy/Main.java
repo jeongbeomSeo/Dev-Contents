@@ -109,5 +109,4 @@ public class Main {
     return merge(queryRec(left, right, node * 2, nodeLeft, mid),
             queryRec(left, right, node * 2 + 1, mid + 1, nodeRight));
   }
-
 }
